@@ -1,0 +1,22 @@
+Deployment & live state
+
+Contract identities and ABIs are loaded from the attested deployment manifest.
+
+Connection
+Verified through public RPC
+Last read block
+26188947
+Last updated
+8:28:38 AM
+Total burials
+0
+Reward vault
+0 WAKE
+Consecrated tokens
+0
+
+State refreshes every 30 seconds while this page is visible and after confirmed transactions. Amounts are in token units; USD context is unavailable.
+
+Pool: 0x213bb2c90ed45b2b9d2c851cbdd742b1ccc111c2 / 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7 · fee 12500 · tick spacing 60 · hook 0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000
+
+View deployment manifest ↗

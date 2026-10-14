@@ -1,0 +1,58 @@
+{
+  "chainId": 1,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0x213bb2c90ed45b2b9d2c851cbdd742b1ccc111c2",
+    "currency1": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-1697-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "3f6a48b4-0047-4b41-9c70-c775aa6422b3",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7"
+    },
+    "notes": "LaunchToken is the fixed-supply WAKE token (1,000,000,000 at 18 decimals, minted to the factory). Graveyard takes one constructor argument, its immutable owner, set to the launch's owner ($owner). After launch the owner calls setWakeToken once with the deployed LaunchToken address (it cannot be changed afterwards), consecrates buriable tokens (append-only, WAKE excluded) and funds WAKE rewards, which the owner can never withdraw. Mourners bury their entire balance of a consecrated token to 0x...dEaD, once per wallet per token, and receive 0.05% of the Graveyard's WAKE balance. Flowers burn WAKE to 0x...dEaD. No ETH is accepted and no initialization calls are made.",
+    "token": {
+      "name": "A Funeral For Every Dead Token",
+      "symbol": "WAKE",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "Graveyard",
+        "constructorArgs": [
+          "$owner"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x45ce93c888fe4faeeaae75f9a1a11783cc3aaaa8f680a8f77411db4c85591f09",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0x213bb2c90ed45b2b9d2c851cbdd742b1ccc111c2",
+      "blockNumber": 26188766,
+      "creationCodeHash": "daf516b165b61858c0e4ee6c016113fe93ea08069932dfc09d068bdece217525"
+    },
+    {
+      "name": "Graveyard",
+      "txHash": "0x45ce93c888fe4faeeaae75f9a1a11783cc3aaaa8f680a8f77411db4c85591f09",
+      "abiHash": "de54b130e6635392ba689553813298f84e2ad971c9b0396d81a12590835f8374",
+      "address": "0x86d7e1a5620239c6677c7f777869a43821b1a300",
+      "blockNumber": 26188766,
+      "creationCodeHash": "dcdc30faa415e6f1544ab9d43f90afc38b4ad6c2215e3f6a19afc1765af00e46"
+    }
+  ],
+  "sourceCommit": "eabfcc0cb0c51a7e5135c3af2544a524390c7807",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "8276ade5b4afad73c2e78e49f5d37efcdea319eb11253f2a7233fb2bfcf87999"
+}

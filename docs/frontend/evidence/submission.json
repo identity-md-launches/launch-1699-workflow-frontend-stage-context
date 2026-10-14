@@ -1,0 +1,14 @@
+{
+  "method": "Temporary local clone, exact prospective source/export/docs, all existing Git history, git bundle --all",
+  "bundleBytes": 1638282,
+  "limitBytes": 8388608,
+  "passes": true,
+  "prospectiveFileBytes": 4083456,
+  "prospectiveFiles": 137,
+  "newFiles": 74,
+  "protectedTrackedFilesUnchanged": true,
+  "submodules": 0,
+  "dependencyCacheOrArchiveFiles": 0,
+  "rootGitMetadataWritable": false,
+  "note": "This report is written after the measured snapshot; its size is immaterial to the available multi-megabyte margin."
+}

@@ -1,0 +1,17 @@
+{
+  "rpc": "https://ethereum-rpc.publicnode.com",
+  "chainId": 1,
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x213bb2c90ed45b2b9d2c851cbdd742b1ccc111c2",
+      "codeBytes": 1722
+    },
+    {
+      "name": "Graveyard",
+      "address": "0x86d7e1a5620239c6677c7f777869a43821b1a300",
+      "codeBytes": 7814
+    }
+  ],
+  "checkedAt": "2026-10-14T06:28:38.873Z"
+}
